@@ -1,10 +1,10 @@
 class Solution {
     public boolean isPalindrome(int x) {
-        if(x == 0){
+        if(x == 0){  // is the number is 0.
             return true;
         }
 
-        if(x < 0 || x%10==0){
+        if(x < 0 || x%10==0){    // number is negative or if the number ends with 0.
             return false;
         }
        
