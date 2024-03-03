@@ -4,6 +4,8 @@
  * @return {void} Do not return anything, modify nums in-place instead.
  */
 var rotate = function(nums, k) {
+
+    // Approach 1
 //     const reverseArr = (start, end) => {
 //         while(start < end){
 //             [nums[start], nums[end]] = [nums[end], nums[start]];
@@ -19,6 +21,9 @@ var rotate = function(nums, k) {
 
 
 // return nums;
+
+
+// Approach 2
 let n = nums.length;
 k %= n;
 
