@@ -26,7 +26,8 @@ var rotate = function(nums, k) {
 // Approach 2
 let n = nums.length;
 k %= n;
-
+if(k>0){
 let rotatedArr = nums.splice(n-k, k);
 nums.unshift(...rotatedArr);
+}
 };
