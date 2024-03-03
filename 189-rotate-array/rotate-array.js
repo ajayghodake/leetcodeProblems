@@ -30,6 +30,4 @@ if(k>0){
 let rotatedArr = nums.splice(n-k, k);
 nums.unshift(...rotatedArr);
 }
-
-
 };
