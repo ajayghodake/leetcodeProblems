@@ -18,4 +18,5 @@ var rotate = function(nums, k) {
    reverseArr(k, nums.length-1);
 
 
+return nums;
 };
